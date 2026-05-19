@@ -1,0 +1,94 @@
+{
+  "journal": {
+    "nomJournal": "Dragon Ball Legends News",
+    "logo": "assets/images/logo.svg",
+    "phraseAccroche": "Votre source d'informations sur le jeu Dragon Ball Legends",
+    "texteAppelAction": "Inscrivez-vous pour recevoir notre newsletter et ne manquez aucune actualité sur Dragon Ball Legends !",
+    "articlePrincipal": {
+      "titre": "Les dernières mises à jour de Dragon Ball Legends : ce que les joueurs doivent savoir",
+      "description": "Découvrez les nouvelles unités, les événements en cours et les conseils de jeu pour Dragon Ball Legends.",
+      "date": "25 Avril 2024",
+      "theme": "Actualités de Dragon Ball Legends",
+      "image": "assets/images/image1.png"
+    },
+    "articles": [
+      {
+        "titre": "Guide pour les débutants : conseils pour bien démarrer dans Dragon Ball Legends",
+        "date": "20 Avril 2024",
+        "theme": "Débutants",
+        "image": "assets/images/image2.png",
+        "popularite": 21
+      },
+      {
+        "titre": "Analyse des nouvelles unités : leurs compétences, leurs stats et leurs meilleures synergies",
+        "date": "15 Avril 2024",
+        "theme": "Unités",
+        "image": "assets/images/image3.jpg",
+        "popularite": 24
+      },
+      {
+        "titre": "Top 10 des meilleures équipes de PvP pour dominer le classement",
+        "date": "5 Avril 2024",
+        "theme": "PvP",
+        "image": "assets/images/image4.jpg",
+        "popularite": 32
+      },
+      {
+        "titre": "Récapitulatif des événements en cours et à venir dans Dragon Ball Legends",
+        "date": "28 Mars 2024",
+        "theme": "Événements",
+        "image": "assets/images/image2.png",
+        "popularite": 15
+      },
+      {
+        "titre": "Les prochaines mises à jour prévues : ce que les joueurs peuvent attendre",
+        "date": "20 Mars 2024",
+        "theme": "Mises à jour",
+        "image": "assets/images/image3.jpg",
+        "popularite": 26
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Débutants",
+        "description": "Conseils, tutoriels et guides pour les nouveaux joueurs de Dragon Ball Legends afin de les aider à bien démarrer et à progresser dans le jeu."
+      },
+      {
+        "nom": "Unités",
+        "description": "Analyse détaillée des nouvelles unités, de leurs compétences spéciales et des meilleures synergies pour les inclure dans votre équipe."
+      },
+      {
+        "nom": "PvP",
+        "description": "Stratégies et conseils pour former des équipes compétitives et dominer le classement PvP de Dragon Ball Legends."
+      },
+      {
+        "nom": "Événements",
+        "description": "Récapitulatif des événements en cours et à venir dans le jeu, y compris les défis, les missions et les campagnes spéciales."
+      },
+      {
+        "nom": "Mises à jour",
+        "description": "Annonces et analyses des mises à jour récentes et à venir de Dragon Ball Legends, y compris les nouvelles fonctionnalités, les ajustements d'équilibrage et les corrections de bugs."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Goku",
+        "typeExperience": "Joueur vétéran",
+        "presentation": "En tant que joueur vétéran de Dragon Ball Legends, je partage mes stratégies et mon expérience pour aider les joueurs à progresser dans le jeu.",
+        "photo": "assets/images/image2.png"
+      },
+      {
+        "prenom": "Vegeta",
+        "typeExperience": "Fan de Dragon Ball",
+        "presentation": "Passionné de Dragon Ball, je vous tiens informés des dernières actualités et des meilleures astuces pour maximiser votre expérience de jeu dans Dragon Ball Legends.",
+        "photo": "assets/images/image3.jpg"
+      },
+      {
+        "prenom": "Whis",
+        "typeExperience": "Commentateur de l'eSport",
+        "presentation": "Avec une expérience dans le commentaire des compétitions d'eSport, je vous offre des analyses approfondies et une couverture complète des événements PvP de Dragon Ball Legends.",
+        "photo": "assets/images/image4.jpg"
+      }
+    ]
+  }
+}
