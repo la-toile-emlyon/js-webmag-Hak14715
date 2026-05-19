@@ -31,23 +31,20 @@ function getData() {
       let articlePrincipal = document.getElementById(`article-principal`);
 
       let titre = data.journal.articlePrincipal.titre;
-      //console.log(titre);
-      let date = data.journal.articlePrincipal.date;
-      //console.log(date);
-      let description = data.journal.articlePrincipal.description;
-      //console.log(description);
-      let image = data.journal.articlePrincipal.image;
-      //console.log(image);
+      let date = data.journal.articlePrincipal.date;   
+      let description = data.journal.articlePrincipal.description;   
+      let image = data.journal.articlePrincipal.image; 
       let theme = data.journal.articlePrincipal.theme;
-      //console.log(theme);
+     
 
       let card = `
-            <div id="article-principal">
-               <img id="#hero-image" src="${image}" alt="">
-               <h1 class="hero-titre">${titre}</h1>
-               <p class="#hero-description">${description}</p>
-               
-            </div>
+            <img id="hero-image" src="${image}" alt="${titre}">
+    <div class="hero-info">
+      <span class="theme-badge">${theme}</span>
+      <h2 id="hero-titre">${titre}</h2>
+      <p id="hero-description">${description}</p>
+      <p id="hero-auteur">Publié le <span class="date">${date}</span></p>
+    </div>
       `
       articlePrincipal.insertAdjacentHTML(`afterend`, card);
       }
@@ -56,7 +53,7 @@ function getData() {
       
       
       
-     // <button class="read-article-btn"></button>
+     
       
       
 
@@ -75,15 +72,16 @@ function getData() {
     let popularite = article.popularite;   
 
     let card = `
-      <div class="container">
-        <article class="article-card">
-          <img class="" src="${image}" alt="${titre}">
+      <article class="article-card">
+        <img src="${image}" alt="${titre}">
+        <div class="article-content">
           <span class="theme-badge">${theme}</span>
           <h3>${titre}</h3>
           <p> ${popularite} de popularité</p>
-          <p class="date">Le ${date}</p>
-        </article>
-      </div>
+          <p class="date"> ${date}</p>
+          <button class="read-btn">Lire l'article</button>
+        </div>
+      </article>
     `;
 
     articlesGrid.insertAdjacentHTML('beforeend', card);
@@ -97,21 +95,19 @@ remplirArticles(data);
     function remplirThemes(data) {
   let articlesThemes = document.getElementById('themes-list');
  
-  data.journal.articles.forEach(theme => {
+  data.journal.themes.forEach(theme => {
     
-    let titre = theme.nom;
-    let popularite = theme.description;   
+    let nom = theme.nom;
+    let description = theme.description;   
 
-    let card = `
-      <div class="themes-section">
-        <article class="theme-item">
-          <h1>${titre}</h3>
-          <p> ${popularite} de popularité</p> 
-        </article>
+    let card2 = `
+      <div class="theme-item">
+        <h3>${nom}</h3>
+        <p>${description}</p>
       </div>
     `;
 
-    articlesThemes.insertAdjacentHTML('beforeend', card);
+    articlesThemes.insertAdjacentHTML('beforeend', card2);
   });
 }
 
@@ -121,7 +117,51 @@ remplirThemes(data);
 
       // TODO 6: REMPLIR LES AUTEURS
 
+      function remplirAuteurs(data) {
+  let articlesAuteurs = document.getElementById('authors-list');
+ 
+  data.journal.auteurs.forEach(auteur => {
+    
+    let prenom = auteur.prenom;
+    let experience = auteur.typeExperience;
+    let presentation = auteur.presentation;
+    let image = auteur.photo;   
+
+    let card2 = `
+      <div class="author-card">
+        <img class="author-image" src="${image}" alt="Portrait de ${prenom}">
+        <h3>${prenom}</h3>
+        <div class="author-role">${experience}</div>
+        <p class="author-bio">"${presentation}"</p>
+      </div>
+    `;
+
+    articlesAuteurs.insertAdjacentHTML('beforeend', card2);
+  });
+}
+
+remplirAuteurs(data);
+
       // TODO 7: REMPLIR LE CALL TO ACTION
+
+       let callToAction = document.getElementById(`call-to-action`);
+
+       let texteAppelAction = data.journal.texteAppelAction;
+       console.log(texteAppelAction);
+
+       let card = `
+              <p>${texteAppelAction}</p>
+              <button class="read-article-btn">S'abonner</button>
+
+       `
+       
+       callToAction.insertAdjacentHTML('beforeend', card);
+      
+     
+
+      
+      // <button class="read-article-btn"></button>
+
 
       /// FIN DU CODE
 
