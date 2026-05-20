@@ -2,16 +2,16 @@
 
 /* ── Variables ── */
 :root {
-   --primary:       #18181b;
-   --primary-light: #27272a;
-   --accent:        #2563eb;
-   --accent-hover:  #1d4ed8;
-   --bg:            #f4f4f5;
-   --bg-card:       #ffffff;
-   --border:        #e4e4e7;
-   --text:          #18181b;
-   --text-muted:    #71717a;
-   --text-white:    #ffffff;
+   --primary:       #B71C1C;
+   --primary-light: #2b2d42;
+   --accent:        #0A192F;
+   --accent-hover:  #12161A;
+   --bg:            #130f04;
+   --bg-card:       #311B92;
+   --border:        #00000045;
+   --text:          #beb69e;
+   --text-muted:    #ffb30060;
+   --text-white:    #e7d5d5d0;
 
    --radius-sm: 6px;
    --radius-md: 12px;

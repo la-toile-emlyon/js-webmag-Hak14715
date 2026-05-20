@@ -9,42 +9,42 @@
       "description": "Découvrez les nouvelles unités, les événements en cours et les conseils de jeu pour Dragon Ball Legends.",
       "date": "25 Avril 2024",
       "theme": "Actualités de Dragon Ball Legends",
-      "image": "assets/images/image1.png"
+      "image": "assets/images/db_legend.png"
     },
     "articles": [
       {
         "titre": "Guide pour les débutants : conseils pour bien démarrer dans Dragon Ball Legends",
         "date": "20 Avril 2024",
         "theme": "Débutants",
-        "image": "assets/images/image2.png",
+        "image": "assets/images/Guide_dbLegend.jpg",
         "popularite": 21
       },
       {
         "titre": "Analyse des nouvelles unités : leurs compétences, leurs stats et leurs meilleures synergies",
         "date": "15 Avril 2024",
         "theme": "Unités",
-        "image": "assets/images/image3.jpg",
+        "image": "assets/images/Guide_personnages.jpg",
         "popularite": 24
       },
       {
         "titre": "Top 10 des meilleures équipes de PvP pour dominer le classement",
         "date": "5 Avril 2024",
         "theme": "PvP",
-        "image": "assets/images/image4.jpg",
+        "image": "assets/images/pvpTeam.jpg",
         "popularite": 32
       },
       {
         "titre": "Récapitulatif des événements en cours et à venir dans Dragon Ball Legends",
         "date": "28 Mars 2024",
         "theme": "Événements",
-        "image": "assets/images/image2.png",
+        "image": "assets/images/Festival_dbLegend.webp",
         "popularite": 15
       },
       {
         "titre": "Les prochaines mises à jour prévues : ce que les joueurs peuvent attendre",
         "date": "20 Mars 2024",
         "theme": "Mises à jour",
-        "image": "assets/images/image3.jpg",
+        "image": "assets/images/Maj_dbLegend.jpg",
         "popularite": 26
       }
     ],
@@ -75,19 +75,19 @@
         "prenom": "Goku",
         "typeExperience": "Joueur vétéran",
         "presentation": "En tant que joueur vétéran de Dragon Ball Legends, je partage mes stratégies et mon expérience pour aider les joueurs à progresser dans le jeu.",
-        "photo": "assets/images/image2.png"
+        "photo": "assets/images/Goku.png"
       },
       {
         "prenom": "Vegeta",
         "typeExperience": "Fan de Dragon Ball",
         "presentation": "Passionné de Dragon Ball, je vous tiens informés des dernières actualités et des meilleures astuces pour maximiser votre expérience de jeu dans Dragon Ball Legends.",
-        "photo": "assets/images/image3.jpg"
+        "photo": "assets/images/Vegeta_Dragon_Ball.jpg"
       },
       {
         "prenom": "Whis",
         "typeExperience": "Commentateur de l'eSport",
         "presentation": "Avec une expérience dans le commentaire des compétitions d'eSport, je vous offre des analyses approfondies et une couverture complète des événements PvP de Dragon Ball Legends.",
-        "photo": "assets/images/image4.jpg"
+        "photo": "assets/images/Whis.webp"
       }
     ]
   }
